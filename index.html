@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assests/logo.png">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav_option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">HOME</a>
+                </div>
+                <div class="nav_option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib_options nav_option">
+                    <img src="assests/library_icon.png" alt="lib">
+                    <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib_box">
+                    <div class="box">
+                        <div class="box_p1">Create your first playlist</div>
+                        <div class="box_p2">It's easy,we'll help you</div>
+                        <button class="badge" type="button">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <div class="box_p1">Let's find some podcasts to follow</div>
+                        <div class="box_p2">we'll keep you updated on new episodes</div>
+                        <button class="badge" type="button">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+           <div class="sticky_nav">
+                <div class="nav_icons">
+                    <img src="assests/backward_icon.png" alt="">
+                    <img src="assests/forward_icon.png" alt="" class="hide">
+                </div>
+                <div class="nav_btn">
+                    <button class="badge hide" type="button">Explore Premium</button>
+                    <button class="badge dark_badge" type="button"> <i class="fa-solid fa-circle-down"></i>Install App</button>
+                    <i class="fa-regular fa-user"></i> 
+                </div>
+           </div>
+
+           <h2>Recently played</h2>
+           <div class="cards_container">
+               <div class="card">
+                   <img src="assests/card1img.jpeg" alt="card1" class="card_img">
+                   <p class="card_tittle">Top 50 - Global</p>
+                   <p class="card_info">Your daily upadate of the most played...</p>
+               </div>
+          </div>
+
+           <h2>Trensing now near you</h2>
+           <div class="cards_container">
+               <div class="card">
+                   <img src="assests/card2img.jpeg" alt="card1" class="card_img">
+                   <p class="card_tittle">Top 50 - Global</p>
+                   <p class="card_info">Your daily upadate of the most played...</p>
+               </div>
+               <div class="card">
+                   <img src="assests/card3img.jpeg" alt="card1" class="card_img">
+                   <p class="card_tittle">Top 50 - Global</p>
+                   <p class="card_info">Your daily upadate of the most played...</p>
+               </div>
+               <div class="card">
+                   <img src="assests/card4img.jpeg" alt="card1" class="card_img">
+                   <p class="card_tittle">Top 50 - Global</p>
+                   <p class="card_info">Your daily upadate of the most played...</p>
+               </div>
+               <div class="card">
+                   <img src="assests/card3img.jpeg" alt="card1" class="card_img">
+                   <p class="card_tittle">Top 50 - Global</p>
+                   <p class="card_info">Your daily upadate of the most played...</p>
+               </div>
+               <div class="card">
+                   <img src="assests/card4img.jpeg" alt="card1" class="card_img">
+                   <p class="card_tittle">Top 50 - Global</p>
+                   <p class="card_info">Your daily upadate of the most played...</p>
+               </div>
+          </div>
+
+
+           <h2>Featured Charts</h2>
+           <div class="cards_container">
+               <div class="card">
+                   <img src="assests/card5img.jpeg" alt="card1" class="card_img">
+                   <p class="card_tittle">Top Songs - Global</p>
+                   <p class="card_info">Your daily upadate of the most played...</p>
+               </div>
+               <div class="card">
+                   <img src="assests/card6img.jpeg" alt="card1" class="card_img">
+                   <p class="card_tittle">Top Songs - India</p>
+                   <p class="card_info">Your daily upadate of the most played...</p>
+               </div>
+               <div class="card">
+                   <img src="assests/card1img.jpeg" alt="card1" class="card_img">
+                   <p class="card_tittle">Top 50 - Global</p>
+                   <p class="card_info">Your daily upadate of the most played...</p>
+               </div>
+          </div>
+          <h3 class="made">Made By Satyam Chauhan &hearts; </h3>
+          <!-- <audio src="assests/WhatsApp Audio 2024-10-23 at 6.50.58 PM.aac" controls ></audio> -->
+          <div class="footer">
+              <div class="line">
+            </div>
+        </div>
+        
+
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="homework/album_picture.jpeg" alt="img">
+                <div class="album_text">
+                    <p class="album_tittle">Daylight</p>
+                    <p class="album_singer">David Kushner</p>
+                </div>
+                <div class="album_icons">
+                    <img src="homework/album_icon1.png" alt="" class="album_icon">
+                    <img src="homework/album_icon2.png" alt="" class="album_icon">
+                </div>
+            </div>
+            <div class="player">
+                <div class="player_controls">
+                    <img src="assests/player_icon1.png" alt="" class="player_icon">
+                    <img src="assests/player_icon2.png" alt="" class="player_icon">
+                    <img src="assests/player_icon3.png" alt="" class="player_icon" id="play">
+                    <img src="assests/player_icon4.png" alt="" class="player_icon">
+                    <img src="assests/player_icon5.png" alt="" class="player_icon">
+                </div>
+                <div class="playback_bar">
+                    <span class="curr-time">0:00</span>
+                    <input type="range" class="progress-bar" id="playback" min="0" max="100" >
+                    <span class="end-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="homework/controls_icon1.png" alt="" class="controls_img controls_img1"> 
+                <img src="homework/controls_icon2.png" alt="" class="controls_img controls_img2"> 
+                <img src="homework/controls_icon3.png" alt="" class="controls_img controls_img3"> 
+                <img src="homework/controls_icon4.png" alt="" class="controls_img controls_img4"> 
+                <img src="homework/controls_icon5.png" alt="" class="controls_img controls_img5"> 
+                <input type="range" class="progress-bar" id="volume" min="0" max="100" >
+
+        
+            </div>
+        </div>
+    </div>
+</body>
+</html>
